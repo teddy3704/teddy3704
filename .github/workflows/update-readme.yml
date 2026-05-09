@@ -7,7 +7,7 @@ on:
       - main
     paths:
       - scripts/update_stats.py
-      - assets/profile-overview.svg
+      - assets/profile-overview-live.svg
       - .github/workflows/update-readme.yml
   schedule:
     - cron: "17 1 * * *"
@@ -41,11 +41,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet -- assets/profile-overview.svg; then
+          if git diff --quiet -- assets/profile-overview-live.svg; then
             echo "No overview changes detected."
             exit 0
           fi
 
-          git add assets/profile-overview.svg
+          git add assets/profile-overview-live.svg
           git commit -m "chore: refresh profile overview"
           git push

@@ -9,7 +9,7 @@
 > Software engineering student building web delivery, OCR workflows, and practical automation with a product mindset and a steadily higher standard for public engineering quality.
 
 <p align="center">
-  <img src="./assets/profile-overview.svg" alt="Phan Van Tien engineering overview" width="100%" />
+  <img src="./assets/profile-overview-live.svg" alt="Phan Van Tien engineering overview" width="100%" />
 </p>
 
 <p align="center">

@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-SVG_PATH = REPO_ROOT / "assets" / "profile-overview.svg"
+SVG_PATH = REPO_ROOT / "assets" / "profile-overview-live.svg"
 GRAPHQL_URL = "https://api.github.com/graphql"
 SVG_NS = "http://www.w3.org/2000/svg"
 BAR_WIDTH = 320
