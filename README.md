@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <strong>I build full-stack products, AI-assisted workflows, and automation systems that reduce friction and ship with intent.</strong><br />
-  <a href="https://tienphanv.io.vn">Portfolio</a> / <a href="mailto:2212472@dlu.edu.vn">Email</a> / <a href="https://github.com/teddy3704">GitHub</a>
+  <strong>Full-stack developer building useful web products, AI workflows, and automation with a cleaner product mindset.</strong><br />
+  Da Lat, Vietnam / <a href="https://tienphanv.io.vn">Portfolio</a> / <a href="mailto:2212472@dlu.edu.vn">Email</a>
 </p>
 
 ## Project Spotlight
@@ -35,26 +35,22 @@
   </tr>
 </table>
 
-## Execution Playbook
+## Selected Work
 
-<p align="center">
-  <img src="./assets/execution-playbook.svg" alt="Execution playbook" width="100%" />
-</p>
+- [SmartBrew-CEO-Edition](https://github.com/teddy3704/SmartBrew-CEO-Edition): Java and IoT work shaped like a flagship product demo.
+- [EVA_Chatbot_Project_OCR](https://github.com/teddy3704/EVA_Chatbot_Project_OCR): OCR and chatbot automation for practical information workflows.
+- [tienphanv.github.io](https://github.com/teddy3704/tienphanv.github.io): Personal portfolio with custom domain and cleaner presentation.
+- [Lab2_CNM](https://github.com/teddy3704/Lab2_CNM), [Lab3_CNM](https://github.com/teddy3704/Lab3_CNM), [LAB4_CNM](https://github.com/teddy3704/LAB4_CNM): TypeScript coursework refined into cleaner public repos.
 
-## Flagship Builds
+## Current Focus
 
-| Project | Why it matters | Stack |
-| --- | --- | --- |
-| [SmartBrew-CEO-Edition](https://github.com/teddy3704/SmartBrew-CEO-Edition) | Product-oriented smart coffee system experiments framed like a flagship build instead of a class artifact. | Java, IoT, product design |
-| [EVA_Chatbot_Project_OCR](https://github.com/teddy3704/EVA_Chatbot_Project_OCR) | OCR and chatbot automation focused on practical admissions and information workflows. | Python, OCR, automation |
-| [tienphanv.github.io](https://github.com/teddy3704/tienphanv.github.io) | Personal brand site with custom domain, cleaner storytelling, and showcase-first presentation. | HTML, CSS, GitHub Pages |
-| [Lab2_CNM](https://github.com/teddy3704/Lab2_CNM), [Lab3_CNM](https://github.com/teddy3704/Lab3_CNM), [LAB4_CNM](https://github.com/teddy3704/LAB4_CNM) | Coursework refined into cleaner public-facing repos with better metadata, sharper descriptions, and stronger delivery. | TypeScript, frontend |
+- Turning coursework into portfolio-grade demos
+- Building AI automation and OCR flows for real use cases
+- Shipping calmer, cleaner presentation across GitHub and live sites
 
-## Stack Architecture
+## Tech
 
-<p align="center">
-  <img src="./assets/stack-architecture.svg" alt="Stack architecture" width="100%" />
-</p>
+`TypeScript` `Node.js` `Python` `Java` `HTML` `CSS` `GitHub Actions` `GitHub Pages`
 
 ## Live GitHub Snapshot
 
