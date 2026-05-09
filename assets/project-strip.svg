@@ -1,0 +1,106 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Phan Van Tien project strip</title>
+  <desc id="desc">A premium editorial strip highlighting full-stack delivery, predictive modeling, and practical automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1324" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9" stop-opacity="0.24" />
+      <stop offset="0.5" stop-color="#34D399" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="cardA" x1="72" y1="112" x2="402" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1B37" />
+      <stop offset="1" stop-color="#0B162F" />
+    </linearGradient>
+    <linearGradient id="cardB" x1="435" y1="112" x2="765" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102033" />
+      <stop offset="1" stop-color="#0C182A" />
+    </linearGradient>
+    <linearGradient id="cardC" x1="798" y1="112" x2="1128" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10192E" />
+      <stop offset="1" stop-color="#0B1424" />
+    </linearGradient>
+    <linearGradient id="accentA" x1="0" y1="0" x2="120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9" />
+      <stop offset="1" stop-color="#22D3EE" />
+    </linearGradient>
+    <linearGradient id="accentB" x1="0" y1="0" x2="120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399" />
+      <stop offset="1" stop-color="#14B8A6" />
+    </linearGradient>
+    <linearGradient id="accentC" x1="0" y1="0" x2="120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B" />
+      <stop offset="1" stop-color="#F97316" />
+    </linearGradient>
+    <filter id="blur" x="-100" y="-100" width="1400" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="48" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)" />
+  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="url(#frame)" />
+
+  <g filter="url(#blur)" opacity="0.34">
+    <circle cx="226" cy="62" r="78" fill="#0891B2" />
+    <circle cx="924" cy="88" r="88" fill="#7C3AED" />
+    <circle cx="642" cy="310" r="84" fill="#059669" />
+  </g>
+
+  <text x="56" y="56" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1">PORTFOLIO PROJECT STRIP</text>
+  <text x="56" y="88" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Three capability lanes for the next layer of public engineering work: product delivery, modeling rigor, and automation systems.</text>
+  <text x="1144" y="56" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" text-anchor="end">FULL-STACK / ML / AUTOMATION</text>
+
+  <g>
+    <rect x="56" y="116" width="332" height="196" rx="24" fill="url(#cardA)" stroke="white" stroke-opacity="0.08" />
+    <rect x="80" y="140" width="114" height="26" rx="13" fill="#0B2239" stroke="#67E8F9" stroke-opacity="0.28" />
+    <text x="100" y="158" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1.5">01  WEB DELIVERY</text>
+    <text x="80" y="197" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">My Blog</text>
+    <rect x="80" y="212" width="112" height="4" rx="2" fill="url(#accentA)" />
+    <text x="80" y="242" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Full-stack web delivery with authentication flows,</text>
+    <text x="80" y="266" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">database architecture, and TypeScript-first product polish.</text>
+
+    <rect x="80" y="282" width="78" height="24" rx="12" fill="white" fill-opacity="0.06" />
+    <text x="119" y="298" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">NEXT.JS</text>
+    <rect x="166" y="282" width="88" height="24" rx="12" fill="white" fill-opacity="0.06" />
+    <text x="210" y="298" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">SUPABASE</text>
+    <rect x="262" y="282" width="92" height="24" rx="12" fill="white" fill-opacity="0.06" />
+    <text x="308" y="298" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">TYPESCRIPT</text>
+  </g>
+
+  <g>
+    <rect x="434" y="116" width="332" height="196" rx="24" fill="url(#cardB)" stroke="white" stroke-opacity="0.08" />
+    <rect x="458" y="140" width="146" height="26" rx="13" fill="#102B2B" stroke="#34D399" stroke-opacity="0.28" />
+    <text x="478" y="158" fill="#34D399" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1.5">02  MODELING RIGOR</text>
+    <text x="458" y="197" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">Predictive Modeling</text>
+    <rect x="458" y="212" width="132" height="4" rx="2" fill="url(#accentB)" />
+    <text x="458" y="242" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Machine-learning experiments focused on fair</text>
+    <text x="458" y="266" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">benchmarking, feature judgment, and repeatable cross-validation.</text>
+
+    <rect x="458" y="282" width="74" height="24" rx="12" fill="white" fill-opacity="0.06" />
+    <text x="495" y="298" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">PYTHON</text>
+    <rect x="540" y="282" width="92" height="24" rx="12" fill="white" fill-opacity="0.06" />
+    <text x="586" y="298" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">CATBOOST</text>
+    <rect x="640" y="282" width="102" height="24" rx="12" fill="white" fill-opacity="0.06" />
+    <text x="691" y="298" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">CV METRICS</text>
+  </g>
+
+  <g>
+    <rect x="812" y="116" width="332" height="196" rx="24" fill="url(#cardC)" stroke="white" stroke-opacity="0.08" />
+    <rect x="836" y="140" width="156" height="26" rx="13" fill="#2B190B" stroke="#F59E0B" stroke-opacity="0.28" />
+    <text x="856" y="158" fill="#F59E0B" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1.5">03  WORKFLOW SYSTEMS</text>
+    <text x="836" y="197" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">Practical Automation</text>
+    <rect x="836" y="212" width="146" height="4" rx="2" fill="url(#accentC)" />
+    <text x="836" y="242" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Automation for OCR-heavy intake, rule-based pricing,</text>
+    <text x="836" y="266" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">and the business workflows that should stop being manual.</text>
+
+    <rect x="836" y="282" width="56" height="24" rx="12" fill="white" fill-opacity="0.06" />
+    <text x="864" y="298" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">OCR</text>
+    <rect x="900" y="282" width="78" height="24" rx="12" fill="white" fill-opacity="0.06" />
+    <text x="939" y="298" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">SCRIPTS</text>
+    <rect x="986" y="282" width="122" height="24" rx="12" fill="white" fill-opacity="0.06" />
+    <text x="1047" y="298" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">PRICING LOGIC</text>
+  </g>
+</svg>

@@ -12,6 +12,10 @@
   <img src="./assets/profile-overview.svg" alt="Phan Van Tien engineering overview" width="100%" />
 </p>
 
+<p align="center">
+  <sub>Overview card refreshes daily from live public GitHub data.</sub>
+</p>
+
 ## Engineering Focus
 
 - Building cleaner TypeScript-based web work from recent coursework and personal experiments
@@ -22,12 +26,30 @@
 ## Core Toolkit
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,java,html,css,sqlite,git,githubactions&amp;perline=9&amp;theme=dark" alt="Core toolkit" />
+  <img src="./assets/icons/typescript.svg" alt="TypeScript" width="42" height="42" />
+  <img src="./assets/icons/javascript.svg" alt="JavaScript" width="42" height="42" />
+  <img src="./assets/icons/python.svg" alt="Python" width="42" height="42" />
+  <img src="./assets/icons/java.svg" alt="Java" width="42" height="42" />
+  <img src="./assets/icons/nextjs.svg" alt="Next.js" width="42" height="42" />
+  <img src="./assets/icons/supabase.svg" alt="Supabase" width="42" height="42" />
+  <img src="./assets/icons/tailwindcss.svg" alt="Tailwind CSS" width="42" height="42" />
+  <img src="./assets/icons/html5.svg" alt="HTML5" width="42" height="42" />
+  <img src="./assets/icons/css3.svg" alt="CSS3" width="42" height="42" />
+  <img src="./assets/icons/sqlite.svg" alt="SQLite" width="42" height="42" />
+  <img src="./assets/icons/git.svg" alt="Git" width="42" height="42" />
+  <img src="./assets/icons/githubactions.svg" alt="GitHub Actions" width="42" height="42" />
 </p>
 
-- **Web delivery:** TypeScript, JavaScript, HTML/CSS, GitHub Pages, and repo presentation that is easier to scan and trust
-- **Automation and OCR:** Python-first workflows, Tesseract + Poppler document extraction, and chatbot-adjacent support tooling
+- **Web delivery:** TypeScript, JavaScript, HTML/CSS, Next.js, GitHub Pages, and repo presentation that is easier to scan and trust
+- **Automation and OCR:** Python-first workflows, Tesseract + Poppler document extraction, and workflow tooling that reduces manual steps
+- **Product systems:** Supabase, Tailwind CSS, authentication flows, data modeling, and cleaner UI composition for portfolio-grade web work
 - **Engineering quality:** Java, Maven, SQLite, tests, static analysis, and product-style packaging rather than one-off demos
+
+## Capability Strip
+
+<p align="center">
+  <img src="./assets/project-strip.svg" alt="Project strip highlighting full-stack delivery, predictive modeling, and practical automation" width="100%" />
+</p>
 
 ## Selected Work
 

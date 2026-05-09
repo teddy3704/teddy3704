@@ -1,0 +1,51 @@
+name: Update Profile Overview
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/update_stats.py
+      - assets/profile-overview.svg
+      - .github/workflows/update-readme.yml
+  schedule:
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-overview:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh overview SVG from live profile data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: python scripts/update_stats.py --login "${GITHUB_REPOSITORY_OWNER}"
+
+      - name: Commit refreshed overview card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- assets/profile-overview.svg; then
+            echo "No overview changes detected."
+            exit 0
+          fi
+
+          git add assets/profile-overview.svg
+          git commit -m "chore: refresh profile overview"
+          git push

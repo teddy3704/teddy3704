@@ -1,6 +1,6 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Phan Van Tien engineering overview</title>
-  <desc id="desc">A self-hosted overview card showing engineering snapshot metrics and public language footprint.</desc>
+  <desc id="desc">A self-hosted overview card showing live public GitHub metrics and language footprint for teddy3704.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0B1324" />
@@ -27,49 +27,42 @@
       <stop offset="1" stop-color="#818CF8" />
     </linearGradient>
   </defs>
-
   <rect width="1200" height="280" rx="28" fill="url(#bg)" />
   <rect x="1" y="1" width="1198" height="278" rx="27" stroke="url(#stroke)" />
   <path d="M600 34V246" stroke="white" stroke-opacity="0.08" stroke-width="2" />
-
   <text x="56" y="58" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1">ENGINEERING SNAPSHOT</text>
   <text x="648" y="58" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1">PUBLIC LANGUAGE FOOTPRINT</text>
-
   <g>
     <rect x="56" y="82" width="230" height="68" rx="18" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08" />
-    <text x="78" y="126" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">20</text>
+    <text id="metric-public-repos" x="78" y="126" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">20</text>
     <text x="154" y="126" fill="#C7D2FE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">PUBLIC REPOS</text>
-
     <rect x="302" y="82" width="230" height="68" rx="18" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08" />
-    <text x="324" y="126" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">4</text>
+    <text id="metric-curated-pins" x="324" y="126" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">4</text>
     <text x="374" y="126" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">CURATED PINS</text>
-
     <rect x="56" y="166" width="230" height="68" rx="18" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08" />
-    <text x="78" y="210" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">100%</text>
-    <text x="204" y="210" fill="#A7F3D0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">COMMIT-LED</text>
-
+    <text id="metric-last-12m-commits" x="78" y="210" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">75</text>
+    <text x="176" y="210" fill="#A7F3D0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">LAST 12M COMMITS</text>
     <rect x="302" y="166" width="230" height="68" rx="18" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08" />
-    <text x="324" y="210" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">3</text>
-    <text x="374" y="210" fill="#FCD34D" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">BUILD TRACKS</text>
+    <text id="metric-primary-languages" x="324" y="210" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">4</text>
+    <text x="376" y="210" fill="#FCD34D" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">PRIMARY LANGS</text>
   </g>
-
   <text x="648" y="86" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Qualitative weighting from current public repositories and pinned work.</text>
-
   <g>
     <text x="648" y="126" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">TypeScript</text>
     <rect x="792" y="110" width="320" height="18" rx="9" fill="white" fill-opacity="0.08" />
-    <rect x="792" y="110" width="290" height="18" rx="9" fill="url(#barTs)" />
-
+    <rect id="lang-bar-typescript" x="792" y="110" width="291" height="18" rx="9" fill="url(#barTs)" />
+    <text id="lang-pct-typescript" x="1140" y="126" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="end">91%</text>
     <text x="648" y="162" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Python</text>
     <rect x="792" y="146" width="320" height="18" rx="9" fill="white" fill-opacity="0.08" />
-    <rect x="792" y="146" width="266" height="18" rx="9" fill="url(#barPy)" />
-
+    <rect id="lang-bar-python" x="792" y="146" width="266" height="18" rx="9" fill="url(#barPy)" />
+    <text id="lang-pct-python" x="1140" y="162" fill="#34D399" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="end">83%</text>
     <text x="648" y="198" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">HTML / CSS</text>
     <rect x="792" y="182" width="320" height="18" rx="9" fill="white" fill-opacity="0.08" />
-    <rect x="792" y="182" width="236" height="18" rx="9" fill="url(#barHtml)" />
-
+    <rect id="lang-bar-htmlcss" x="792" y="182" width="237" height="18" rx="9" fill="url(#barHtml)" />
+    <text id="lang-pct-htmlcss" x="1140" y="198" fill="#F59E0B" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="end">74%</text>
     <text x="648" y="234" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Java</text>
     <rect x="792" y="218" width="320" height="18" rx="9" fill="white" fill-opacity="0.08" />
-    <rect x="792" y="218" width="212" height="18" rx="9" fill="url(#barJava)" />
+    <rect id="lang-bar-java" x="792" y="218" width="211" height="18" rx="9" fill="url(#barJava)" />
+    <text id="lang-pct-java" x="1140" y="234" fill="#A78BFA" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="end">66%</text>
   </g>
 </svg>
