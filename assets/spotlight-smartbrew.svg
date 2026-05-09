@@ -1,0 +1,48 @@
+<svg width="560" height="320" viewBox="0 0 560 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SmartBrew spotlight card</title>
+  <desc id="desc">Feature card for SmartBrew CEO Edition, a smart coffee monitoring and automation project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="28" y1="18" x2="540" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C1917" />
+      <stop offset="0.58" stop-color="#7C2D12" />
+      <stop offset="1" stop-color="#0F766E" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FDBA74" />
+      <stop offset="1" stop-color="#99F6E4" />
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="white" stroke-opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <rect width="560" height="320" rx="28" fill="url(#bg)" />
+  <rect width="560" height="320" rx="28" fill="url(#grid)" />
+
+  <circle cx="454" cy="84" r="82" fill="#F59E0B" fill-opacity="0.18" />
+  <circle cx="472" cy="222" r="68" fill="#14B8A6" fill-opacity="0.22" />
+
+  <rect x="34" y="28" width="152" height="30" rx="15" fill="white" fill-opacity="0.10" />
+  <text x="54" y="47" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.4">FLAGSHIP BUILD</text>
+
+  <text x="34" y="112" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">SmartBrew</text>
+  <text x="34" y="146" fill="#FED7AA" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">Product-minded IoT and automation</text>
+
+  <text x="34" y="194" fill="#FFEDD5" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">Coffee monitoring, system design, automation flows,</text>
+  <text x="34" y="216" fill="#FFEDD5" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">and a practical product story built around connected software.</text>
+
+  <rect x="34" y="252" width="74" height="34" rx="17" fill="#EA580C" fill-opacity="0.24" stroke="#FDBA74" stroke-opacity="0.62" />
+  <text x="56" y="274" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Java</text>
+
+  <rect x="120" y="252" width="58" height="34" rx="17" fill="#0F766E" fill-opacity="0.28" stroke="#99F6E4" stroke-opacity="0.62" />
+  <text x="138" y="274" fill="#ECFEFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">IoT</text>
+
+  <rect x="190" y="252" width="112" height="34" rx="17" fill="#F59E0B" fill-opacity="0.18" stroke="#FDE68A" stroke-opacity="0.62" />
+  <text x="212" y="274" fill="#FFFBEB" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Automation</text>
+
+  <circle cx="430" cy="148" r="36" fill="white" fill-opacity="0.08" />
+  <circle cx="430" cy="148" r="21" stroke="url(#accent)" stroke-width="3" />
+  <circle cx="474" cy="134" r="12" fill="#FDBA74" fill-opacity="0.95" />
+  <circle cx="494" cy="188" r="10" fill="#99F6E4" fill-opacity="0.95" />
+  <path d="M430 148L474 134L494 188" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" />
+</svg>

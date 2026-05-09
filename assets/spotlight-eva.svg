@@ -1,0 +1,48 @@
+<svg width="560" height="320" viewBox="0 0 560 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">EVA spotlight card</title>
+  <desc id="desc">Feature card for EVA Chatbot OCR, an admissions-oriented chatbot and OCR automation project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="20" y1="12" x2="540" y2="308" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="0.52" stop-color="#0F3D57" />
+      <stop offset="1" stop-color="#0F766E" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#93C5FD" />
+      <stop offset="1" stop-color="#5EEAD4" />
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" stroke="white" stroke-opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <rect width="560" height="320" rx="28" fill="url(#bg)" />
+  <rect width="560" height="320" rx="28" fill="url(#grid)" />
+
+  <circle cx="444" cy="78" r="82" fill="#38BDF8" fill-opacity="0.14" />
+  <circle cx="464" cy="232" r="72" fill="#2DD4BF" fill-opacity="0.16" />
+
+  <rect x="34" y="28" width="146" height="30" rx="15" fill="white" fill-opacity="0.10" />
+  <text x="54" y="47" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.4">AI AUTOMATION</text>
+
+  <text x="34" y="112" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">EVA Chatbot OCR</text>
+  <text x="34" y="146" fill="#A7F3D0" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">Admissions support with OCR and chatbot workflows</text>
+
+  <text x="34" y="194" fill="#DBEAFE" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">Built to reduce repetitive support work through document</text>
+  <text x="34" y="216" fill="#DBEAFE" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">understanding, automation, and guided information retrieval.</text>
+
+  <rect x="34" y="252" width="82" height="34" rx="17" fill="#1D4ED8" fill-opacity="0.24" stroke="#93C5FD" stroke-opacity="0.62" />
+  <text x="55" y="274" fill="#EFF6FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Python</text>
+
+  <rect x="128" y="252" width="62" height="34" rx="17" fill="#0F766E" fill-opacity="0.28" stroke="#99F6E4" stroke-opacity="0.62" />
+  <text x="149" y="274" fill="#ECFEFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">OCR</text>
+
+  <rect x="202" y="252" width="92" height="34" rx="17" fill="#0EA5E9" fill-opacity="0.18" stroke="#BAE6FD" stroke-opacity="0.62" />
+  <text x="224" y="274" fill="#F0F9FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Chatbot</text>
+
+  <rect x="396" y="112" width="92" height="116" rx="18" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.18" />
+  <rect x="414" y="132" width="56" height="14" rx="7" fill="#93C5FD" fill-opacity="0.90" />
+  <rect x="414" y="156" width="38" height="8" rx="4" fill="white" fill-opacity="0.70" />
+  <rect x="414" y="171" width="52" height="8" rx="4" fill="white" fill-opacity="0.38" />
+  <rect x="414" y="196" width="56" height="16" rx="8" fill="#5EEAD4" fill-opacity="0.82" />
+</svg>

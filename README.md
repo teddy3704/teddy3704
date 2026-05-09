@@ -34,6 +34,30 @@
   </tr>
 </table>
 
+## Project Spotlight
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/teddy3704/SmartBrew-CEO-Edition">
+        <img src="./assets/spotlight-smartbrew.svg" alt="SmartBrew spotlight" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/teddy3704/EVA_Chatbot_Project_OCR">
+        <img src="./assets/spotlight-eva.svg" alt="EVA Chatbot OCR spotlight" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/teddy3704/tienphanv.github.io">
+        <img src="./assets/spotlight-portfolio.svg" alt="Portfolio spotlight" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## About Me
 
 I am Phan Van Tien, an Information Technology student at Da Lat University who enjoys building useful software for real users.

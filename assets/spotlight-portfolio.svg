@@ -1,0 +1,43 @@
+<svg width="560" height="320" viewBox="0 0 560 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio spotlight card</title>
+  <desc id="desc">Feature card for the tienphanv.io.vn personal portfolio website.</desc>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="542" y2="306" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2937" />
+      <stop offset="0.48" stop-color="#9A3412" />
+      <stop offset="1" stop-color="#164E63" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FCD34D" />
+      <stop offset="1" stop-color="#67E8F9" />
+    </linearGradient>
+  </defs>
+
+  <rect width="560" height="320" rx="28" fill="url(#bg)" />
+  <circle cx="458" cy="84" r="74" fill="#F59E0B" fill-opacity="0.16" />
+  <circle cx="472" cy="232" r="78" fill="#06B6D4" fill-opacity="0.16" />
+
+  <rect x="34" y="28" width="156" height="30" rx="15" fill="white" fill-opacity="0.10" />
+  <text x="54" y="47" fill="#FEF3C7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.4">PERSONAL BRAND</text>
+
+  <text x="34" y="112" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">tienphanv.io.vn</text>
+  <text x="34" y="146" fill="#A5F3FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">Portfolio, storytelling, and product presentation</text>
+
+  <text x="34" y="194" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">A custom-domain portfolio built to present projects,</text>
+  <text x="34" y="216" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">experience, and technical identity with a cleaner narrative.</text>
+
+  <rect x="34" y="252" width="68" height="34" rx="17" fill="#EA580C" fill-opacity="0.24" stroke="#FDBA74" stroke-opacity="0.62" />
+  <text x="54" y="274" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">HTML</text>
+
+  <rect x="114" y="252" width="60" height="34" rx="17" fill="#1D4ED8" fill-opacity="0.24" stroke="#93C5FD" stroke-opacity="0.62" />
+  <text x="135" y="274" fill="#EFF6FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">CSS</text>
+
+  <rect x="186" y="252" width="120" height="34" rx="17" fill="#0891B2" fill-opacity="0.18" stroke="#67E8F9" stroke-opacity="0.62" />
+  <text x="209" y="274" fill="#ECFEFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">GitHub Pages</text>
+
+  <rect x="394" y="110" width="112" height="96" rx="18" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.18" />
+  <rect x="410" y="126" width="80" height="12" rx="6" fill="url(#accent)" />
+  <rect x="410" y="152" width="58" height="8" rx="4" fill="white" fill-opacity="0.74" />
+  <rect x="410" y="168" width="72" height="8" rx="4" fill="white" fill-opacity="0.44" />
+  <rect x="410" y="188" width="46" height="10" rx="5" fill="#FCD34D" fill-opacity="0.86" />
+</svg>
