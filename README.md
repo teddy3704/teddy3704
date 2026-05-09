@@ -12,6 +12,28 @@
   <img src="https://komarev.com/ghpvc/?username=teddy3704&style=for-the-badge&color=0F766E" alt="Profile views" />
 </p>
 
+<p align="center">
+  <strong>Building product-grade web apps, AI workflows, and automation that turn real problems into software people can actually use.</strong><br />
+  Da Lat, Vietnam · Da Lat University · Open to internships, collaboration, and product-focused engineering work
+</p>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Focus</strong><br />
+      AI automation, OCR workflows, chatbots, and full-stack product builds
+    </td>
+    <td width="33%" valign="top">
+      <strong>Build style</strong><br />
+      Clear UX, fast iteration, maintainable systems, and practical delivery
+    </td>
+    <td width="33%" valign="top">
+      <strong>Current goal</strong><br />
+      Turning coursework into polished, portfolio-ready engineering work
+    </td>
+  </tr>
+</table>
+
 ## About Me
 
 I am Phan Van Tien, an Information Technology student at Da Lat University who enjoys building useful software for real users.
