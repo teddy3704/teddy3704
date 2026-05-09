@@ -3,12 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="./assets/premium-signal-ribbon.svg" alt="Premium profile signal ribbon" width="100%" />
-</p>
-
-<p align="center">
   <strong>Full-stack developer building useful web products, AI workflows, and automation with a cleaner product mindset.</strong><br />
-  Da Lat, Vietnam / <a href="https://tienphanv.io.vn">Portfolio</a> / <a href="mailto:2212472@dlu.edu.vn">Email</a>
+  Da Lat, Vietnam · Da Lat University · Open to internships and collaboration<br />
+  <a href="https://tienphanv.io.vn">Portfolio</a> · <a href="mailto:2212472@dlu.edu.vn">Email</a>
 </p>
 
 ## Project Spotlight
@@ -80,12 +77,6 @@
 <p align="center">
   <sub>Generated automatically with GitHub Actions to keep the profile alive and updated.</sub>
 </p>
-
-## Current Direction
-
-- Turning school and lab work into portfolio-grade engineering stories with stronger demo quality
-- Building a GitHub presence that feels like a premium product portfolio, not a default student account
-- Doubling down on AI workflows, automation, clean web delivery, and recruiter-friendly presentation
 
 ## Connect
 
