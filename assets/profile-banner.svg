@@ -1,0 +1,60 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Phan Van Tien profile banner</title>
+  <desc id="desc">A modern banner with the name Phan Van Tien and the subtitle Full-stack Developer, Product Builder, and AI Automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1100" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="0.52" stop-color="#134E4A" />
+      <stop offset="1" stop-color="#C55B24" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F6C28B" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0.25" />
+    </linearGradient>
+    <filter id="blurLarge" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="40" />
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="white" stroke-opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" rx="28" fill="url(#bg)" />
+  <rect width="1200" height="340" rx="28" fill="url(#grid)" />
+
+  <circle cx="1010" cy="70" r="140" fill="#F59E0B" fill-opacity="0.22" filter="url(#blurLarge)" />
+  <circle cx="900" cy="270" r="120" fill="#2DD4BF" fill-opacity="0.18" filter="url(#blurLarge)" />
+
+  <path d="M847 51L1100 51" stroke="white" stroke-opacity="0.22" stroke-width="2" stroke-linecap="round" />
+  <path d="M835 83L1127 83" stroke="white" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round" />
+  <path d="M835 115L1060 115" stroke="white" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round" />
+
+  <circle cx="820" cy="226" r="46" fill="white" fill-opacity="0.06" />
+  <circle cx="820" cy="226" r="29" stroke="url(#glow)" stroke-width="3" />
+  <circle cx="970" cy="210" r="18" fill="#5EEAD4" fill-opacity="0.8" />
+  <circle cx="1040" cy="255" r="12" fill="#F6C28B" fill-opacity="0.85" />
+  <path d="M820 226L970 210L1040 255" stroke="url(#glow)" stroke-width="3" stroke-linecap="round" />
+
+  <g opacity="0.92">
+    <rect x="64" y="58" width="144" height="34" rx="17" fill="white" fill-opacity="0.12" />
+    <text x="88" y="80" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.6">GITHUB PROFILE</text>
+  </g>
+
+  <text x="64" y="152" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="1.4">PHAN VAN TIEN</text>
+  <text x="64" y="196" fill="#D1FAE5" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">Full-stack Developer • Product Builder • AI Automation</text>
+  <text x="64" y="236" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400">Building software that ships fast, solves real problems, and gets better through automation.</text>
+
+  <g>
+    <rect x="64" y="268" width="116" height="38" rx="19" fill="#F97316" fill-opacity="0.18" stroke="#FDBA74" stroke-opacity="0.55" />
+    <text x="94" y="292" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">TypeScript</text>
+
+    <rect x="194" y="268" width="94" height="38" rx="19" fill="#14B8A6" fill-opacity="0.18" stroke="#99F6E4" stroke-opacity="0.55" />
+    <text x="224" y="292" fill="#ECFEFF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Python</text>
+
+    <rect x="302" y="268" width="132" height="38" rx="19" fill="#F59E0B" fill-opacity="0.18" stroke="#FDE68A" stroke-opacity="0.55" />
+    <text x="332" y="292" fill="#FFFBEB" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Automation</text>
+
+    <rect x="448" y="268" width="154" height="38" rx="19" fill="#0EA5E9" fill-opacity="0.18" stroke="#BAE6FD" stroke-opacity="0.55" />
+    <text x="478" y="292" fill="#F0F9FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Product Thinking</text>
+  </g>
+</svg>
