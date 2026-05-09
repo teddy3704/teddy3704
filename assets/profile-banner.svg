@@ -1,60 +1,65 @@
 <svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Phan Van Tien profile banner</title>
-  <desc id="desc">A modern banner with the name Phan Van Tien and the subtitle Full-stack Developer, Product Builder, and AI Automation.</desc>
+  <desc id="desc">A refined banner with the name Phan Van Tien and the subtitle Full-stack Developer, Product Builder, and AI Automation.</desc>
   <defs>
-    <linearGradient id="bg" x1="80" y1="20" x2="1100" y2="320" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="40" y1="24" x2="1160" y2="316" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0F172A" />
-      <stop offset="0.52" stop-color="#134E4A" />
-      <stop offset="1" stop-color="#C55B24" />
+      <stop offset="0.56" stop-color="#172535" />
+      <stop offset="1" stop-color="#253140" />
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#F6C28B" stop-opacity="0.9" />
-      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0.25" />
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 86) rotate(135) scale(250 190)">
+      <stop stop-color="#D9A46A" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#D9A46A" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="coolGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 256) rotate(150) scale(220 170)">
+      <stop stop-color="#6FB8B0" stop-opacity="0.16" />
+      <stop offset="1" stop-color="#6FB8B0" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accentLine" x1="850" y1="210" x2="1038" y2="242" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9A46A" stop-opacity="0.65" />
+      <stop offset="1" stop-color="#9FD1CA" stop-opacity="0.55" />
     </linearGradient>
-    <filter id="blurLarge" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="40" />
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="34" />
     </filter>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="white" stroke-opacity="0.08" />
-    </pattern>
   </defs>
 
   <rect width="1200" height="340" rx="28" fill="url(#bg)" />
-  <rect width="1200" height="340" rx="28" fill="url(#grid)" />
+  <rect x="1" y="1" width="1198" height="338" rx="27" stroke="white" stroke-opacity="0.08" />
 
-  <circle cx="1010" cy="70" r="140" fill="#F59E0B" fill-opacity="0.22" filter="url(#blurLarge)" />
-  <circle cx="900" cy="270" r="120" fill="#2DD4BF" fill-opacity="0.18" filter="url(#blurLarge)" />
+  <circle cx="1030" cy="86" r="150" fill="url(#warmGlow)" filter="url(#softBlur)" />
+  <circle cx="900" cy="256" r="132" fill="url(#coolGlow)" filter="url(#softBlur)" />
 
-  <path d="M847 51L1100 51" stroke="white" stroke-opacity="0.22" stroke-width="2" stroke-linecap="round" />
-  <path d="M835 83L1127 83" stroke="white" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round" />
-  <path d="M835 115L1060 115" stroke="white" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round" />
+  <path d="M838 66H1088" stroke="white" stroke-opacity="0.16" stroke-width="2" stroke-linecap="round" />
+  <path d="M870 92H1112" stroke="white" stroke-opacity="0.08" stroke-width="2" stroke-linecap="round" />
+  <path d="M900 118H1062" stroke="white" stroke-opacity="0.08" stroke-width="2" stroke-linecap="round" />
 
-  <circle cx="820" cy="226" r="46" fill="white" fill-opacity="0.06" />
-  <circle cx="820" cy="226" r="29" stroke="url(#glow)" stroke-width="3" />
-  <circle cx="970" cy="210" r="18" fill="#5EEAD4" fill-opacity="0.8" />
-  <circle cx="1040" cy="255" r="12" fill="#F6C28B" fill-opacity="0.85" />
-  <path d="M820 226L970 210L1040 255" stroke="url(#glow)" stroke-width="3" stroke-linecap="round" />
+  <circle cx="852" cy="220" r="36" fill="white" fill-opacity="0.035" />
+  <circle cx="852" cy="220" r="24" stroke="#E2C6A2" stroke-opacity="0.4" stroke-width="2.2" />
+  <circle cx="948" cy="194" r="10" fill="#A4D6CF" fill-opacity="0.72" />
+  <circle cx="1038" cy="242" r="8" fill="#E3C095" fill-opacity="0.72" />
+  <path d="M852 220L948 194L1038 242" stroke="url(#accentLine)" stroke-width="2.4" stroke-linecap="round" />
 
-  <g opacity="0.92">
-    <rect x="64" y="58" width="144" height="34" rx="17" fill="white" fill-opacity="0.12" />
-    <text x="88" y="80" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.6">GITHUB PROFILE</text>
+  <g opacity="0.96">
+    <rect x="64" y="56" width="150" height="34" rx="17" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.08" />
+    <text x="89" y="79" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.8">GITHUB PROFILE</text>
   </g>
 
-  <text x="64" y="152" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="1.4">PHAN VAN TIEN</text>
-  <text x="64" y="196" fill="#D1FAE5" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">Full-stack Developer • Product Builder • AI Automation</text>
-  <text x="64" y="236" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400">Building software that ships fast, solves real problems, and gets better through automation.</text>
+  <text x="64" y="150" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1.1">PHAN VAN TIEN</text>
+  <text x="64" y="194" fill="#D8E1E8" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">Full-stack Developer • Product Builder • AI Automation</text>
+  <text x="64" y="234" fill="#B8C4D1" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400">Building software that ships fast, solves real problems, and gets better through automation.</text>
 
   <g>
-    <rect x="64" y="268" width="116" height="38" rx="19" fill="#F97316" fill-opacity="0.18" stroke="#FDBA74" stroke-opacity="0.55" />
-    <text x="94" y="292" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">TypeScript</text>
+    <rect x="64" y="268" width="116" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.06" stroke="#E5E7EB" stroke-opacity="0.18" />
+    <text x="94" y="292" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">TypeScript</text>
 
-    <rect x="194" y="268" width="94" height="38" rx="19" fill="#14B8A6" fill-opacity="0.18" stroke="#99F6E4" stroke-opacity="0.55" />
-    <text x="224" y="292" fill="#ECFEFF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Python</text>
+    <rect x="194" y="268" width="94" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.06" stroke="#E5E7EB" stroke-opacity="0.18" />
+    <text x="224" y="292" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Python</text>
 
-    <rect x="302" y="268" width="132" height="38" rx="19" fill="#F59E0B" fill-opacity="0.18" stroke="#FDE68A" stroke-opacity="0.55" />
-    <text x="332" y="292" fill="#FFFBEB" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Automation</text>
+    <rect x="302" y="268" width="132" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.06" stroke="#E5E7EB" stroke-opacity="0.18" />
+    <text x="332" y="292" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Automation</text>
 
-    <rect x="448" y="268" width="154" height="38" rx="19" fill="#0EA5E9" fill-opacity="0.18" stroke="#BAE6FD" stroke-opacity="0.55" />
-    <text x="478" y="292" fill="#F0F9FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Product Thinking</text>
+    <rect x="448" y="268" width="154" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.06" stroke="#E5E7EB" stroke-opacity="0.18" />
+    <text x="478" y="292" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Product Thinking</text>
   </g>
 </svg>
