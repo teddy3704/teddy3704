@@ -34,7 +34,7 @@
   <text x="648" y="58" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1">PUBLIC LANGUAGE FOOTPRINT</text>
   <g>
     <rect x="56" y="82" width="230" height="68" rx="18" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08" />
-    <text id="metric-public-repos" x="78" y="126" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">19</text>
+    <text id="metric-public-repos" x="78" y="126" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">20</text>
     <text x="154" y="126" fill="#C7D2FE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">PUBLIC REPOS</text>
     <rect x="302" y="82" width="230" height="68" rx="18" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08" />
     <text id="metric-curated-pins" x="324" y="126" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">4</text>
