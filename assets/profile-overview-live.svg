@@ -40,7 +40,7 @@
     <text id="metric-curated-pins" x="324" y="126" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">4</text>
     <text x="374" y="126" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">CURATED PINS</text>
     <rect x="56" y="166" width="230" height="68" rx="18" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08" />
-    <text id="metric-last-12m-commits" x="78" y="210" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">60</text>
+    <text id="metric-last-12m-commits" x="78" y="210" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">57</text>
     <text x="176" y="210" fill="#A7F3D0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">LAST 12M COMMITS</text>
     <rect x="302" y="166" width="230" height="68" rx="18" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.08" />
     <text id="metric-primary-languages" x="324" y="210" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">4</text>
